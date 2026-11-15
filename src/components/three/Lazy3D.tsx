@@ -94,10 +94,11 @@ export function ProductViewer({
       <Image
         src={image.src}
         alt={image.alt}
-        fill
+        width={1200}
+        height={1200}
         priority
         sizes="(min-width: 1024px) 50vw, 100vw"
-        className={`object-cover transition-opacity duration-500 ${mode === "3d" ? "opacity-0" : "opacity-100"}`}
+        className={`h-full w-full object-cover transition-opacity duration-500 ${mode === "3d" ? "opacity-0" : "opacity-100"}`}
       />
       {show3D && mode === "3d" ? (
         <div className="absolute inset-0">

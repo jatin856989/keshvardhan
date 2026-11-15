@@ -7,9 +7,9 @@ import { PageIntro } from "@/components/ui/PageIntro";
 import { Reveal } from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
-  title: "Our story: why hair care should work from the inside and the outside",
+  title: "Our Story: Hair Care From the Inside Out",
   description:
-    "Keshvardhan started with two household habits, amla in the kitchen and oil on Sunday, and made them measurable: nine botanicals in a daily spoon, the same plants in a scalp oil, every quantity on the label.",
+    "Keshvardhan turns two household habits, amla in the kitchen and oil on Sunday, into a measured routine with every ingredient quantity on the label.",
   alternates: { canonical: "/about" },
   openGraph: { title: "Our story | Keshvardhan", description: "Two household habits, made measurable.", url: "/about", images: [defaultOgImage] },
 };
@@ -67,9 +67,11 @@ export default function AboutPage() {
             <Image
               src="/images/products/oil-ingredients.webp"
               alt="Coconut halves, sesame seeds, bhringraj leaves and a rosemary sprig beside a bottle of oil"
-              fill
+              width={1200}
+              height={1200}
+              priority
               sizes="(min-width: 1024px) 40vw, 100vw"
-              className="object-cover"
+              className="h-full w-full object-cover"
             />
           </Reveal>
           <Reveal delay={0.1} className="card p-6">

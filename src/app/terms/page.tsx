@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { PageIntro } from "@/components/ui/PageIntro";
-import { siteConfig } from "@/lib/site";
+import { defaultOgImage, siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Terms of service",
-  description: "The terms that apply when you buy from Keshvardhan: ordering, pricing, payment, delivery, cancellations, product use and liability.",
+  title: "Terms of Service",
+  description:
+    "The terms that apply when you buy from Keshvardhan: ordering, pricing, payment, delivery, cancellations, product use and liability.",
   alternates: { canonical: "/terms" },
+  openGraph: { title: "Terms of service | Keshvardhan", description: "The terms that apply when you buy from Keshvardhan: ordering, pricing, payment, delivery, cancellations, product use and liability.", url: "/terms", images: [defaultOgImage] },
 };
 
 export default function TermsPage() {

@@ -231,9 +231,10 @@ export function FounderNote() {
             <Image
               src="/images/products/powder-ingredients.webp"
               alt="Amla, curry leaves, moringa, hibiscus and black sesame arranged on a cream background"
-              fill
+              width={1200}
+              height={1200}
               sizes="(min-width: 1024px) 45vw, 100vw"
-              className="object-cover"
+              className="h-full w-full object-cover"
             />
           </Reveal>
           <Reveal delay={0.1}>

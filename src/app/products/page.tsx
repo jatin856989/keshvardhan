@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { defaultOgImage } from "@/lib/site";
 import { Container } from "@/components/ui/Container";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
@@ -8,9 +9,9 @@ import { products } from "@/lib/products";
 import { getCachedStock, productInStock } from "@/lib/stock";
 
 export const metadata: Metadata = {
-  title: "Shop hair care: Daily Root Powder, Root Ritual Oil and the Routine Bundle",
+  title: "Shop Hair Powder, Hair Oil and Routine Bundle",
   description:
-    "Buy Keshvardhan's inside-out hair care: edible Daily Root Powder (150 g), herbal Root Ritual Oil (100 ml) or the month-long Routine Bundle. Free shipping above ₹999, cash on delivery available across India.",
+    "Shop Keshvardhan's edible Daily Root Powder, herbal Root Ritual Oil or the month-long Routine Bundle. Free shipping above ₹999 and COD across India.",
   alternates: { canonical: "/products" },
   openGraph: {
     title: "Shop Keshvardhan hair care",
@@ -41,6 +42,25 @@ export default async function ProductsPage() {
           </StaggerItem>
         ))}
       </Stagger>
+      <section className="prose-ks mt-20" aria-labelledby="choose-title">
+        <h2 id="choose-title">Which one should you start with?</h2>
+        <p>
+          <strong>Start with the Routine Bundle</strong> if you want the full inside-out approach. It pairs a 30-serving
+          jar of Daily Root Powder with a 100 ml bottle of Root Ritual Oil, costs less than buying them separately, ships
+          free and includes the 30-day guide. A month is the fairest window to notice changes in shedding and scalp comfort.
+        </p>
+        <p>
+          <strong>Choose Daily Root Powder alone</strong> if you prefer to begin with food. It is a teaspoon a day in water,
+          milk, curd or a smoothie, made from amla, bhringraj, curry leaf, moringa, hibiscus, fenugreek, black sesame and
+          pumpkin seed, with no added sugar or synthetic vitamins.
+        </p>
+        <p>
+          <strong>Choose Root Ritual Oil alone</strong> if you already have a nutrition routine and want a scalp oil. It is
+          cold-pressed coconut and sesame, slow-infused with the same botanicals, finished with castor and rosemary, and
+          washes out with one shampoo. Not sure? Read the <Link href="/ingredients">full ingredient list</Link>, the{" "}
+          <Link href="/faq">FAQ</Link> or the <Link href="/guide">30-day guide</Link>.
+        </p>
+      </section>
       <section className="mt-20 grid gap-6 rounded-[2rem] bg-white p-8 sm:grid-cols-3 sm:p-12" aria-labelledby="shop-promises">
         <h2 id="shop-promises" className="sr-only">
           Shopping promises

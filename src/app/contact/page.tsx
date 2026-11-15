@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { PageIntro } from "@/components/ui/PageIntro";
@@ -8,8 +9,9 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { absoluteUrl, defaultOgImage, siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Contact us",
-  description: `Questions about an order, an ingredient or the routine? Write to ${siteConfig.name}; a person replies within one working day (${siteConfig.supportHours}).`,
+  title: "Contact Us: Orders, Ingredients and Support",
+  description:
+    "Questions about an order, an ingredient or the routine? Write to Keshvardhan; a person replies within one working day, Monday to Saturday.",
   alternates: { canonical: "/contact" },
   openGraph: { title: "Contact Keshvardhan", description: "A person replies within one working day.", url: "/contact", images: [defaultOgImage] },
 };
@@ -32,6 +34,22 @@ export default function ContactPage() {
         lead="Order questions, ingredient questions, press, retail or anything else. We read everything and reply within one working day."
         crumbs={[{ name: "Contact", href: "/contact" }]}
       />
+      <Container className="mt-10">
+        <section className="prose-ks" aria-labelledby="before-title">
+          <h2 id="before-title">Before you write</h2>
+          <p>
+            Many questions are answered already. The <Link href="/faq">FAQ</Link> covers dosage, taste, when to expect
+            changes and who the routine suits. <Link href="/shipping-returns">Shipping and returns</Link> explains delivery
+            times, cash on delivery, the 7-day return window and what to do if a parcel arrives damaged. The{" "}
+            <Link href="/ingredients">ingredients page</Link> lists every botanical with its exact quantity.
+          </p>
+          <p>
+            For an order question, include your order number (it starts with KV) and the phone number used at checkout.
+            For a damaged item, attach a photo. For anything medical, such as pregnancy, medication or a scalp condition,
+            please check with your doctor first; we are happy to share the full ingredient and batch details for them.
+          </p>
+        </section>
+      </Container>
       <Container className="mt-14 grid gap-10 lg:grid-cols-[1.4fr_1fr]">
         <Reveal className="card p-6 sm:p-8">
           <h2 className="font-display text-2xl text-forest">Send a message</h2>

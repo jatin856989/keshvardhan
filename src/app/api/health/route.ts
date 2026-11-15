@@ -3,6 +3,7 @@ import { isDatabaseConfigured } from "@/lib/db";
 import { isEmailConfigured } from "@/lib/email";
 import { paymentsMode } from "@/lib/razorpay";
 import { isShiprocketConfigured } from "@/lib/shiprocket";
+import { siteConfig } from "@/lib/site";
 
 export async function GET() {
   await connection();
@@ -14,6 +15,7 @@ export async function GET() {
       email: isEmailConfigured(),
       shipping: isShiprocketConfigured(),
       analytics: Boolean(process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID),
+      siteUrl: siteConfig.url,
     },
     { headers: { "Cache-Control": "no-store" } },
   );

@@ -26,7 +26,7 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} | Inside-out hair care: edible root powder and herbal hair oil`,
+    default: `${siteConfig.name} | Edible Hair Powder and Herbal Hair Oil`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,

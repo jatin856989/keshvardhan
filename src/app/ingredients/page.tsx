@@ -7,9 +7,9 @@ import { Reveal, Stagger, StaggerItem } from "@/components/ui/Reveal";
 import { productBySlug } from "@/lib/products";
 
 export const metadata: Metadata = {
-  title: "Ingredients: every botanical in Keshvardhan, with quantities",
+  title: "Ingredients: Every Botanical, With Quantities",
   description:
-    "The full ingredient list for Daily Root Powder and Root Ritual Oil: amla, bhringraj, curry leaf, moringa, hibiscus, fenugreek, black sesame, pumpkin seed, coconut, castor and rosemary, with the exact amount of each.",
+    "Every ingredient in Daily Root Powder and Root Ritual Oil, from amla and bhringraj to coconut and rosemary, with the exact amount of each.",
   alternates: { canonical: "/ingredients" },
   openGraph: { title: "Every ingredient, with quantities | Keshvardhan", description: "Nothing hidden behind a proprietary blend.", url: "/ingredients", images: [defaultOgImage] },
 };

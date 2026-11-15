@@ -23,10 +23,11 @@ export function ProductCard({
         <Image
           src={product.image.src}
           alt={product.image.alt}
-          fill
+          width={product.image.width}
+          height={product.image.height}
           priority={priority}
           sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"
-          className="object-cover transition duration-700 group-hover:scale-[1.04]"
+          className="h-full w-full object-cover transition duration-700 group-hover:scale-[1.04]"
         />
         {product.badge ? (
           <span className="absolute left-4 top-4 rounded-full bg-forest px-3 py-1 text-xs font-bold text-cream">

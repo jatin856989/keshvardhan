@@ -15,9 +15,9 @@ import { getCachedStock } from "@/lib/stock";
 import { defaultOgImage, siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} | Inside-out hair care: edible root powder and herbal hair oil`,
+  title: "Keshvardhan | Edible Hair Powder and Herbal Hair Oil",
   description:
-    "Start the Keshvardhan routine: a food-grade Daily Root Powder with amla, bhringraj and moringa you eat every morning, and a slow-infused Root Ritual Oil for your scalp. Free 30-day guide with every order. Ships across India.",
+    "Eat a spoon of amla, bhringraj and moringa daily and oil your scalp twice a week. Free 30-day guide, free shipping above ₹999, COD across India.",
   alternates: { canonical: "/" },
   openGraph: {
     title: `${siteConfig.name} | Nectar for your hair, inside and out`,

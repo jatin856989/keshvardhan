@@ -26,10 +26,10 @@ export async function generateMetadata({ params }: PageProps<"/products/[slug]">
   const { slug } = await params;
   const product = getProduct(slug);
   if (!product) return { title: "Product not found" };
-  const title = `${product.name} (${product.size}) | ${formatINR(product.pricePaise)}`;
+  const title = `${product.name} | ${formatINR(product.pricePaise)}`;
   return {
     title,
-    description: product.description,
+    description: product.metaDescription ?? product.description,
     alternates: { canonical: `/products/${product.slug}` },
     openGraph: {
       type: "website",

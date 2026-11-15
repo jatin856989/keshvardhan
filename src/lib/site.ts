@@ -1,4 +1,23 @@
 /**
+ * Canonical origin used for canonicals, sitemap, robots, Open Graph and schema.
+ *
+ * Order of precedence:
+ * 1. NEXT_PUBLIC_SITE_URL, unless it points at localhost while running on Vercel
+ *    (a copied development value would otherwise poison every canonical URL);
+ * 2. Vercel's own production hostname (set automatically on every deployment);
+ * 3. http://localhost:3000 for local development.
+ * Set NEXT_PUBLIC_SITE_URL to the final custom domain once it is connected.
+ */
+function resolveSiteUrl(): string {
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim().replace(/\/$/, "");
+  const vercelHost = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim();
+  const isLocalhost = (u: string) => /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/i.test(u);
+  if (explicit && !(vercelHost && isLocalhost(explicit))) return explicit;
+  if (vercelHost) return `https://${vercelHost.replace(/^https?:\/\//, "").replace(/\/$/, "")}`;
+  return "http://localhost:3000";
+}
+
+/**
  * Single source of truth for brand and business details used in metadata,
  * structured data, emails and the footer. Update here, not in components.
  */
@@ -8,7 +27,7 @@ export const siteConfig = {
   tagline: "Nectar for your hair, inside and out",
   description:
     "Keshvardhan is an inside-out hair care routine from India: a food-grade herbal Daily Root Powder you eat and a Root Ritual Oil you massage in, made from amla, bhringraj, curry leaf and hibiscus.",
-  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(/\/$/, ""),
+  url: resolveSiteUrl(),
   locale: "en_IN",
   language: "en-IN",
   currency: "INR",

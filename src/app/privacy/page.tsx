@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { PageIntro } from "@/components/ui/PageIntro";
-import { siteConfig } from "@/lib/site";
+import { defaultOgImage, siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Privacy policy",
+  title: "Privacy Policy: Your Data and Your Rights",
   description:
-    "How Keshvardhan collects, uses and protects your personal data: what we collect at checkout, cookies and analytics, the third-party services we use, how long we keep data and how to request deletion.",
+    "How Keshvardhan collects, uses and protects your data: checkout details, cookies, analytics, third-party services, retention and how to request deletion.",
   alternates: { canonical: "/privacy" },
+  openGraph: { title: "Privacy policy | Keshvardhan", description: "How Keshvardhan collects, uses and protects your data: checkout details, cookies, analytics, third-party services, retention and how to request deletion.", url: "/privacy", images: [defaultOgImage] },
 };
 
 const UPDATED = "15 November 2026";

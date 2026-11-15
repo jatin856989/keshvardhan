@@ -27,6 +27,8 @@ export interface Product {
   kind: "powder" | "oil" | "bundle";
   tagline: string;
   description: string;
+  /** 120-160 characters, used for the search snippet when the full description is longer. */
+  metaDescription?: string;
   longDescription: string[];
   pricePaise: number;
   compareAtPaise?: number;
@@ -139,6 +141,8 @@ export const products: Product[] = [
     tagline: "A spoon of nine Indian botanicals a day, for hair built from within.",
     description:
       "Food-grade herbal hair nourishment powder with amla, bhringraj, curry leaf, moringa, hibiscus, fenugreek, black sesame and pumpkin seed. 150 g, 30 servings, no added sugar or synthetic vitamins.",
+    metaDescription:
+      "Food-grade herbal powder with amla, bhringraj, curry leaf and moringa. 150 g, 30 servings, no added sugar or synthetic vitamins. Ships across India.",
     longDescription: [
       "Daily Root Powder is a food, not a pill. Each 5 g serving blends nine botanicals that Indian households have used for hair for generations, ground fresh and nitrogen-flushed so they stay potent for a year.",
       "It tastes mildly tangy and nutty from the amla and black sesame, and mixes into warm water, milk, curd or a smoothie. The 30-day guide includes six recipes if you prefer it in food.",
@@ -227,6 +231,8 @@ export const products: Product[] = [
     tagline: "Cold-pressed coconut and sesame, slow-infused with the same plants you eat.",
     description:
       "Herbal scalp oil in cold-pressed coconut and black sesame, slow-infused with bhringraj, amla, curry leaf, hibiscus and fenugreek, finished with castor and rosemary. 100 ml amber glass, no synthetic fragrance.",
+    metaDescription:
+      "Herbal scalp oil in cold-pressed coconut and sesame, slow-infused with bhringraj, amla and curry leaf. 100 ml amber glass, no synthetic fragrance.",
     longDescription: [
       "Root Ritual Oil is the outside half of the routine. We slow-infuse the same botanicals from the Daily Root Powder into a base of cold-pressed coconut and black sesame oil, then add castor for body and a drop of rosemary for the scalp.",
       "It is light enough to wash out with one shampoo and scented only by the herbs themselves. The amber glass bottle protects the oil from light; a pump keeps it clean.",
