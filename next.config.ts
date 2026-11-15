@@ -15,7 +15,20 @@ const securityHeaders = [
   },
 ];
 
+/**
+ * GA4 measurement ID (public by design; it appears in the page source of every
+ * site that uses it). Resolved at build time and inlined for server and client.
+ * A non-empty NEXT_PUBLIC_GA_MEASUREMENT_ID always wins; otherwise the ID is
+ * only enabled for Vercel production builds, so local development, previews and
+ * audit runs never pollute the real analytics data.
+ */
+const GA_PRODUCTION_ID = "G-81X2P90890";
+const gaMeasurementId =
+  process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ||
+  (process.env.VERCEL_ENV === "production" ? GA_PRODUCTION_ID : "");
+
 const nextConfig: NextConfig = {
+  env: { NEXT_PUBLIC_GA_MEASUREMENT_ID: gaMeasurementId },
   cacheComponents: true,
   partialPrefetching: true,
   poweredByHeader: false,
