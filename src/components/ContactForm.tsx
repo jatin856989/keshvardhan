@@ -82,7 +82,7 @@ export function ContactForm() {
       </div>
       <div>
         <label htmlFor="c-subject" className="mb-1.5 block text-sm font-semibold text-forest">Subject</label>
-        <input id="c-subject" name="subject" required className="field" placeholder="Order KS2611-…, ingredient question…" aria-invalid={Boolean(err("subject"))} aria-describedby={err("subject") ? "c-subject-err" : undefined} />
+        <input id="c-subject" name="subject" required className="field" placeholder="Order KV2611-…, ingredient question…" aria-invalid={Boolean(err("subject"))} aria-describedby={err("subject") ? "c-subject-err" : undefined} />
         {err("subject") ? <p id="c-subject-err" className="mt-1 text-xs text-red-700">{err("subject")}</p> : null}
       </div>
       <div className="sm:col-span-2">

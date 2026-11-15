@@ -1,6 +1,6 @@
-# Keshsudha — storefront, checkout and admin
+# Keshvardhan — storefront, checkout and admin
 
-Direct-to-consumer store for **Keshsudha** (edible Daily Root Powder + Root Ritual Oil), built on Next.js 16 with Cache Components, PostgreSQL on Neon, Razorpay hosted checkout, Resend email, Shiprocket shipping and a procedural React Three Fiber 3D hero.
+Direct-to-consumer store for **Keshvardhan** (edible Daily Root Powder + Root Ritual Oil), built on Next.js 16 with Cache Components, PostgreSQL on Neon, Razorpay hosted checkout, Resend email, Shiprocket shipping and a procedural React Three Fiber 3D hero.
 
 Business context lives in `docs/Hair Care Brand BRD.pdf`. The pre-launch audit is in `docs/pre-launch-audit.md`.
 

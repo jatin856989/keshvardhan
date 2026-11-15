@@ -9,9 +9,9 @@ import { Reveal } from "@/components/ui/Reveal";
 export const metadata: Metadata = {
   title: "Our story: why hair care should work from the inside and the outside",
   description:
-    "Keshsudha started with two household habits, amla in the kitchen and oil on Sunday, and made them measurable: nine botanicals in a daily spoon, the same plants in a scalp oil, every quantity on the label.",
+    "Keshvardhan started with two household habits, amla in the kitchen and oil on Sunday, and made them measurable: nine botanicals in a daily spoon, the same plants in a scalp oil, every quantity on the label.",
   alternates: { canonical: "/about" },
-  openGraph: { title: "Our story | Keshsudha", description: "Two household habits, made measurable.", url: "/about", images: [defaultOgImage] },
+  openGraph: { title: "Our story | Keshvardhan", description: "Two household habits, made measurable.", url: "/about", images: [defaultOgImage] },
 };
 
 export default function AboutPage() {
@@ -20,7 +20,7 @@ export default function AboutPage() {
       <PageIntro
         eyebrow="Our story"
         title="Two habits every Indian home already had. We made them measurable."
-        lead="Kesh means hair. Sudha means nectar. Keshsudha is what happens when the kitchen remedy and the Sunday oiling finally get a label, a dose and a schedule."
+        lead="Kesh means hair. Vardhan means to nurture and tend. Keshvardhan is what happens when the kitchen remedy and the Sunday oiling finally get a label, a dose and a schedule."
         crumbs={[{ name: "Our Story", href: "/about" }]}
       />
       <Container className="mt-14 grid gap-14 lg:grid-cols-[1.1fr_1fr] lg:items-start">

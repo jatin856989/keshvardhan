@@ -10,10 +10,10 @@ import { getCachedStock, productInStock } from "@/lib/stock";
 export const metadata: Metadata = {
   title: "Shop hair care: Daily Root Powder, Root Ritual Oil and the Routine Bundle",
   description:
-    "Buy Keshsudha's inside-out hair care: edible Daily Root Powder (150 g), herbal Root Ritual Oil (100 ml) or the month-long Routine Bundle. Free shipping above ₹999, cash on delivery available across India.",
+    "Buy Keshvardhan's inside-out hair care: edible Daily Root Powder (150 g), herbal Root Ritual Oil (100 ml) or the month-long Routine Bundle. Free shipping above ₹999, cash on delivery available across India.",
   alternates: { canonical: "/products" },
   openGraph: {
-    title: "Shop Keshsudha hair care",
+    title: "Shop Keshvardhan hair care",
     description: "Edible Daily Root Powder, Root Ritual Oil and the Routine Bundle. Ships across India.",
     url: "/products", images: [defaultOgImage]
   },

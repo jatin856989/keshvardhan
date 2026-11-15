@@ -12,7 +12,7 @@ export function generateStaticParams() {
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const product = getProduct(slug);
-  const name = product?.name ?? "Keshsudha";
+  const name = product?.name ?? "Keshvardhan";
   const tagline = product?.tagline ?? "Nectar for your hair, inside and out";
   const price = product ? formatINR(product.pricePaise) : "";
   const accent = product?.color ?? "#C4653A";
@@ -45,7 +45,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
           }}
         />
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "100%" }}>
-          <div style={{ fontSize: 26, letterSpacing: 10, opacity: 0.8, display: "flex" }}>KESHSUDHA</div>
+          <div style={{ fontSize: 26, letterSpacing: 10, opacity: 0.8, display: "flex" }}>KESHVARDHAN</div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ fontSize: 84, lineHeight: 1.05, display: "flex", maxWidth: 900 }}>{name}</div>
             <div style={{ fontSize: 30, marginTop: 24, opacity: 0.85, display: "flex", maxWidth: 900, fontFamily: "Arial, sans-serif" }}>

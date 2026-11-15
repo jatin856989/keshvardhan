@@ -52,7 +52,7 @@ export interface Product {
 export const products: Product[] = [
   {
     slug: "routine-bundle",
-    name: "The Keshsudha Routine",
+    name: "The Keshvardhan Routine",
     shortName: "Routine Bundle",
     kind: "bundle",
     tagline: "Eat it. Oil it. Repeat. Powder and oil together for one month.",
@@ -60,7 +60,7 @@ export const products: Product[] = [
       "The complete inside-out hair routine: a 30-serving jar of Daily Root Powder and a 100 ml bottle of Root Ritual Oil, with the 30-day guide included.",
     longDescription: [
       "Hair is built from the inside and protected from the outside. The Routine pairs a spoon of food-grade botanicals a day with a twice-weekly scalp oil made from the same plants, so both sides of the story are covered for a full month.",
-      "Every bundle ships with a printed quick-start card and instant access to the Keshsudha Guide, a 40-page eBook that walks you through the first 30 days, recipes for the powder and the oiling technique step by step.",
+      "Every bundle ships with a printed quick-start card and instant access to the Keshvardhan Guide, a 40-page eBook that walks you through the first 30 days, recipes for the powder and the oiling technique step by step.",
     ],
     pricePaise: 139_900,
     compareAtPaise: 159_800,
@@ -70,17 +70,17 @@ export const products: Product[] = [
     weightGrams: 650,
     hsn: "2106",
     gstRate: 18,
-    sku: "KS-BUNDLE-01",
+    sku: "KV-BUNDLE-01",
     image: {
       src: "/images/products/routine-bundle.webp",
-      alt: "Keshsudha Routine bundle: a jar of Daily Root Powder next to a bottle of Root Ritual Oil",
+      alt: "Keshvardhan Routine bundle: a jar of Daily Root Powder next to a bottle of Root Ritual Oil",
       width: 1200,
       height: 1200,
     },
     gallery: [
       {
         src: "/images/products/routine-bundle.webp",
-        alt: "Keshsudha Routine bundle: a jar of Daily Root Powder next to a bottle of Root Ritual Oil",
+        alt: "Keshvardhan Routine bundle: a jar of Daily Root Powder next to a bottle of Root Ritual Oil",
         width: 1200,
         height: 1200,
       },
@@ -151,7 +151,7 @@ export const products: Product[] = [
     weightGrams: 320,
     hsn: "2106",
     gstRate: 18,
-    sku: "KS-POWDER-150",
+    sku: "KV-POWDER-150",
     image: {
       src: "/images/products/daily-root-powder.webp",
       alt: "Daily Root Powder jar with a wooden scoop of green herbal powder",
@@ -238,7 +238,7 @@ export const products: Product[] = [
     weightGrams: 290,
     hsn: "3305",
     gstRate: 18,
-    sku: "KS-OIL-100",
+    sku: "KV-OIL-100",
     image: {
       src: "/images/products/root-ritual-oil.webp",
       alt: "Root Ritual Oil in an amber glass bottle with a dropper",

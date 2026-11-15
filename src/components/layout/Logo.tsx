@@ -16,10 +16,10 @@ export function LogoMark({ className = "size-8" }: { className?: string }) {
 
 export function Logo({ light = false }: { light?: boolean }) {
   return (
-    <Link href="/" className="flex items-center gap-2.5" aria-label="Keshsudha home">
+    <Link href="/" className="flex items-center gap-2.5" aria-label="Keshvardhan home">
       <LogoMark />
       <span className={`font-display text-2xl tracking-tight ${light ? "text-cream" : "text-forest"}`}>
-        Keshsudha
+        Keshvardhan
       </span>
     </Link>
   );

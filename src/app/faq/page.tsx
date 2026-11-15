@@ -13,9 +13,9 @@ import { homeFaqs } from "@/components/home/Sections";
 export const metadata: Metadata = {
   title: "FAQ: dosage, taste, shipping, returns and more",
   description:
-    "Answers about Keshsudha's Daily Root Powder and Root Ritual Oil: is it a supplement, what it tastes like, when to expect results, shipping across India, cash on delivery, returns and the free guide.",
+    "Answers about Keshvardhan's Daily Root Powder and Root Ritual Oil: is it a supplement, what it tastes like, when to expect results, shipping across India, cash on delivery, returns and the free guide.",
   alternates: { canonical: "/faq" },
-  openGraph: { title: "Frequently asked questions | Keshsudha", description: "Dosage, taste, shipping, returns and the guide.", url: "/faq", images: [defaultOgImage] },
+  openGraph: { title: "Frequently asked questions | Keshvardhan", description: "Dosage, taste, shipping, returns and the guide.", url: "/faq", images: [defaultOgImage] },
 };
 
 const groups = [

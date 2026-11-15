@@ -22,7 +22,7 @@ function generateOrderNumber(): string {
     .toUpperCase()
     .padStart(3, "0");
   const t = (Date.now() % 100_000).toString(36).toUpperCase();
-  return `KS${yy}${mm}-${t}${rand}`;
+  return `KV${yy}${mm}-${t}${rand}`;
 }
 
 export interface PricedLine {

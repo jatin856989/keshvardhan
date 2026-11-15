@@ -42,17 +42,17 @@ export function Footer() {
           </div>
           <ul className="flex items-center gap-3">
             <li>
-              <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" aria-label="Keshsudha on Instagram" className="grid size-10 place-items-center rounded-full border border-cream/20 transition hover:bg-cream hover:text-forest">
+              <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" aria-label="Keshvardhan on Instagram" className="grid size-10 place-items-center rounded-full border border-cream/20 transition hover:bg-cream hover:text-forest">
                 <InstagramIcon className="size-4" />
               </a>
             </li>
             <li>
-              <a href={siteConfig.social.youtube} target="_blank" rel="noopener noreferrer" aria-label="Keshsudha on YouTube" className="grid size-10 place-items-center rounded-full border border-cream/20 transition hover:bg-cream hover:text-forest">
+              <a href={siteConfig.social.youtube} target="_blank" rel="noopener noreferrer" aria-label="Keshvardhan on YouTube" className="grid size-10 place-items-center rounded-full border border-cream/20 transition hover:bg-cream hover:text-forest">
                 <YoutubeIcon className="size-4" />
               </a>
             </li>
             <li>
-              <a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer" aria-label="Keshsudha on Facebook" className="grid size-10 place-items-center rounded-full border border-cream/20 transition hover:bg-cream hover:text-forest">
+              <a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer" aria-label="Keshvardhan on Facebook" className="grid size-10 place-items-center rounded-full border border-cream/20 transition hover:bg-cream hover:text-forest">
                 <FacebookIcon className="size-4" />
               </a>
             </li>

@@ -83,7 +83,7 @@ export function orderConfirmationEmail(params: {
     )
     .join("");
   const cod = order.paymentMethod === "cod";
-  const subject = `Your Keshsudha guide is ready (and order ${order.orderNumber} is on its way)`;
+  const subject = `Your Keshvardhan guide is ready (and order ${order.orderNumber} is on its way)`;
   const html = layout(
     subject,
     `<p style="font-size:18px;">Namaste ${escapeHtml(firstName)},</p>

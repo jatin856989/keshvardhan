@@ -11,9 +11,9 @@ import { guideChapters } from "@/lib/ebook";
 export const metadata: Metadata = {
   title: "The 30-Day Inside-Out Hair Guide (free eBook with every order)",
   description:
-    "What is inside the Keshsudha 30-day guide: the daily routine, six recipes for Daily Root Powder, the scalp oiling technique step by step, a hair-fall tracker and when to see a dermatologist. Emailed within two minutes of ordering.",
+    "What is inside the Keshvardhan 30-day guide: the daily routine, six recipes for Daily Root Powder, the scalp oiling technique step by step, a hair-fall tracker and when to see a dermatologist. Emailed within two minutes of ordering.",
   alternates: { canonical: "/guide" },
-  openGraph: { title: "The 30-Day Inside-Out Hair Guide | Keshsudha", description: "Free with every order, in your inbox within two minutes.", url: "/guide", images: [defaultOgImage] },
+  openGraph: { title: "The 30-Day Inside-Out Hair Guide | Keshvardhan", description: "Free with every order, in your inbox within two minutes.", url: "/guide", images: [defaultOgImage] },
 };
 
 export default function GuidePage() {

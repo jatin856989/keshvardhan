@@ -54,7 +54,7 @@ export const useCart = create<CartState>()(
       close: () => set({ isOpen: false }),
     }),
     {
-      name: "keshsudha-cart",
+      name: "keshvardhan-cart",
       partialize: (s) => ({ lines: s.lines }),
     },
   ),

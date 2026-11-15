@@ -60,7 +60,7 @@ export function Hero() {
             fallback={
               <Image
                 src="/images/products/routine-bundle.webp"
-                alt="Keshsudha Daily Root Powder jar and Root Ritual Oil bottle"
+                alt="Keshvardhan Daily Root Powder jar and Root Ritual Oil bottle"
                 width={1200}
                 height={1200}
                 priority

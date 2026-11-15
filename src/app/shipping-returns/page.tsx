@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Shipping, returns and refunds",
-  description: "Keshsudha ships across India within one working day. Free shipping above ₹999, cash on delivery for ₹49, 7-day returns on sealed products and free replacement for transit damage.",
+  description: "Keshvardhan ships across India within one working day. Free shipping above ₹999, cash on delivery for ₹49, 7-day returns on sealed products and free replacement for transit damage.",
   alternates: { canonical: "/shipping-returns" },
 };
 

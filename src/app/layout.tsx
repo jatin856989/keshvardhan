@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     "amla bhringraj powder",
     "hair fall routine",
     "Ayurvedic hair oil",
-    "Keshsudha",
+    "Keshvardhan",
   ],
   authors: [{ name: siteConfig.name, url: siteConfig.url }],
   creator: siteConfig.name,

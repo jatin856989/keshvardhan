@@ -19,7 +19,7 @@ async function Waitlist() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <h1 className="font-display text-3xl text-forest">Waitlist ({rows.length})</h1>
-        <a href={`data:text/csv;charset=utf-8,${encodeURIComponent(["email,name,source,created_at", ...rows.map((r) => `${r.email},${r.name ?? ""},${r.source ?? ""},${r.createdAt.toISOString()}`)].join("\n"))}`} download="keshsudha-waitlist.csv" className="btn btn-ghost !px-4 !py-2 text-sm">
+        <a href={`data:text/csv;charset=utf-8,${encodeURIComponent(["email,name,source,created_at", ...rows.map((r) => `${r.email},${r.name ?? ""},${r.source ?? ""},${r.createdAt.toISOString()}`)].join("\n"))}`} download="keshvardhan-waitlist.csv" className="btn btn-ghost !px-4 !py-2 text-sm">
           Export CSV
         </a>
       </div>

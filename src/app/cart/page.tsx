@@ -5,7 +5,7 @@ import { CartPageClient } from "@/components/cart/CartPageClient";
 
 export const metadata: Metadata = {
   title: "Your cart",
-  description: "Review your Keshsudha routine before checkout.",
+  description: "Review your Keshvardhan routine before checkout.",
   robots: { index: false, follow: true },
   alternates: { canonical: "/cart" },
 };

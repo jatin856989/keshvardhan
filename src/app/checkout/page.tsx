@@ -5,7 +5,7 @@ import { onlinePaymentAvailable, paymentsMode } from "@/lib/razorpay";
 
 export const metadata: Metadata = {
   title: "Checkout",
-  description: "Secure checkout for your Keshsudha order. Pay by UPI, card, netbanking or cash on delivery.",
+  description: "Secure checkout for your Keshvardhan order. Pay by UPI, card, netbanking or cash on delivery.",
   robots: { index: false, follow: false },
   alternates: { canonical: "/checkout" },
 };

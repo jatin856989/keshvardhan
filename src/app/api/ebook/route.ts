@@ -29,7 +29,7 @@ export async function GET(req: Request) {
     status: 200,
     headers: {
       "Content-Type": "application/pdf",
-      "Content-Disposition": 'attachment; filename="Keshsudha-30-Day-Hair-Guide.pdf"',
+      "Content-Disposition": 'attachment; filename="Keshvardhan-30-Day-Hair-Guide.pdf"',
       "Content-Length": String(pdf.byteLength),
       "Cache-Control": "private, no-store",
       "X-Robots-Tag": "noindex, nofollow",

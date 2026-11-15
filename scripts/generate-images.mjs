@@ -57,7 +57,7 @@ const jar = (x, y, s = 1) => `
     <rect x="-150" y="-330" width="300" height="110" rx="28" fill="${forest}"/>
     <rect x="-150" y="-300" width="300" height="12" fill="#2b5a3f" opacity="0.6"/>
     <rect x="-118" y="-150" width="236" height="300" rx="18" fill="${cream}" stroke="#e4dccb" stroke-width="2"/>
-    <text x="0" y="-70" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="${forest}">Keshsudha</text>
+    <text x="0" y="-70" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="${forest}">Keshvardhan</text>
     <rect x="-40" y="-52" width="80" height="4" fill="${terracotta}"/>
     <text x="0" y="10" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="${forest}">Daily Root</text>
     <text x="0" y="52" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="${forest}">Powder</text>
@@ -73,7 +73,7 @@ const bottle = (x, y, s = 1) => `
     <rect x="-22" y="-330" width="44" height="150" rx="6" fill="#c58f4e" opacity="0.7"/>
     <path d="M-60 -300 h120 v40 q 60 40 60 120 v 380 q0 60 -60 60 h-120 q-60 0 -60 -60 v-380 q0 -80 60 -120z" fill="url(#glass)"/>
     <rect x="-70" y="-60" width="140" height="190" rx="12" fill="${cream}" opacity="0.95"/>
-    <text x="0" y="-10" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="${forest}">Keshsudha</text>
+    <text x="0" y="-10" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="${forest}">Keshvardhan</text>
     <rect x="-26" y="2" width="52" height="3" fill="${terracotta}"/>
     <text x="0" y="44" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="${forest}">Root Ritual</text>
     <text x="0" y="74" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="${forest}">Oil</text>
@@ -148,7 +148,7 @@ const og = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" vi
   <rect width="1200" height="630" fill="${forest}"/>
   <circle cx="1000" cy="120" r="260" fill="${amla}" opacity="0.18"/>
   <circle cx="160" cy="560" r="200" fill="${terracotta}" opacity="0.25"/>
-  <text x="80" y="140" font-family="Arial, sans-serif" font-size="26" letter-spacing="8" fill="${cream}" opacity="0.8">KESHSUDHA</text>
+  <text x="80" y="140" font-family="Arial, sans-serif" font-size="26" letter-spacing="8" fill="${cream}" opacity="0.8">KESHVARDHAN</text>
   <text x="80" y="300" font-family="Georgia, serif" font-size="88" fill="${cream}">Nectar for your hair,</text>
   <text x="80" y="400" font-family="Georgia, serif" font-size="88" fill="${cream}">inside and out.</text>
   <text x="80" y="500" font-family="Arial, sans-serif" font-size="30" fill="${cream}" opacity="0.85">Edible Daily Root Powder + Root Ritual Oil · Made in India</text>

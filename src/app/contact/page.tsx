@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Contact us",
   description: `Questions about an order, an ingredient or the routine? Write to ${siteConfig.name}; a person replies within one working day (${siteConfig.supportHours}).`,
   alternates: { canonical: "/contact" },
-  openGraph: { title: "Contact Keshsudha", description: "A person replies within one working day.", url: "/contact", images: [defaultOgImage] },
+  openGraph: { title: "Contact Keshvardhan", description: "A person replies within one working day.", url: "/contact", images: [defaultOgImage] },
 };
 
 export default function ContactPage() {
@@ -22,7 +22,7 @@ export default function ContactPage() {
           "@context": "https://schema.org",
           "@type": "ContactPage",
           url: absoluteUrl("/contact"),
-          name: "Contact Keshsudha",
+          name: "Contact Keshvardhan",
           mainEntity: { "@id": `${siteConfig.url}/#organization` },
         }}
       />
@@ -65,7 +65,7 @@ export default function ContactPage() {
           </div>
           <div className="card p-6 text-sm text-stone">
             <h2 className="font-display text-xl text-forest">Order questions</h2>
-            <p className="mt-2">Include your order number (it starts with KS) and the phone number used at checkout so we can find it quickly.</p>
+            <p className="mt-2">Include your order number (it starts with KV) and the phone number used at checkout so we can find it quickly.</p>
           </div>
         </Reveal>
       </Container>

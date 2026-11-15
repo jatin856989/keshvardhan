@@ -3,16 +3,16 @@
  * structured data, emails and the footer. Update here, not in components.
  */
 export const siteConfig = {
-  name: "Keshsudha",
-  legalName: "Keshsudha Wellness",
+  name: "Keshvardhan",
+  legalName: "Keshvardhan Wellness",
   tagline: "Nectar for your hair, inside and out",
   description:
-    "Keshsudha is an inside-out hair care routine from India: a food-grade herbal Daily Root Powder you eat and a Root Ritual Oil you massage in, made from amla, bhringraj, curry leaf and hibiscus.",
+    "Keshvardhan is an inside-out hair care routine from India: a food-grade herbal Daily Root Powder you eat and a Root Ritual Oil you massage in, made from amla, bhringraj, curry leaf and hibiscus.",
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(/\/$/, ""),
   locale: "en_IN",
   language: "en-IN",
   currency: "INR",
-  email: "hello@keshsudha.in",
+  email: "hello@keshvardhan.in",
   // TODO(launch): replace placeholder phone and address with the registered business details
   supportPhone: "+91 98765 43210",
   supportHours: "Mon to Sat, 10:00 to 19:00 IST",
@@ -24,9 +24,9 @@ export const siteConfig = {
     addressCountry: "IN",
   },
   social: {
-    instagram: "https://www.instagram.com/keshsudha",
-    youtube: "https://www.youtube.com/@keshsudha",
-    facebook: "https://www.facebook.com/keshsudha",
+    instagram: "https://www.instagram.com/keshvardhan",
+    youtube: "https://www.youtube.com/@keshvardhan",
+    facebook: "https://www.facebook.com/keshvardhan",
   },
   foundingYear: 2026,
   gstin: "", // printed on invoices and the footer once registered
@@ -38,7 +38,7 @@ export const defaultOgImage = {
   url: "/opengraph-image.png",
   width: 1200,
   height: 630,
-  alt: "Keshsudha: nectar for your hair, inside and out",
+  alt: "Keshvardhan: nectar for your hair, inside and out",
 };
 
 export function absoluteUrl(path = "/"): string {

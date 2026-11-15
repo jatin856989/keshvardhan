@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy policy",
   description:
-    "How Keshsudha collects, uses and protects your personal data: what we collect at checkout, cookies and analytics, the third-party services we use, how long we keep data and how to request deletion.",
+    "How Keshvardhan collects, uses and protects your personal data: what we collect at checkout, cookies and analytics, the third-party services we use, how long we keep data and how to request deletion.",
   alternates: { canonical: "/privacy" },
 };
 

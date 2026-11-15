@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Terms of service",
-  description: "The terms that apply when you buy from Keshsudha: ordering, pricing, payment, delivery, cancellations, product use and liability.",
+  description: "The terms that apply when you buy from Keshvardhan: ordering, pricing, payment, delivery, cancellations, product use and liability.",
   alternates: { canonical: "/terms" },
 };
 
@@ -41,7 +41,7 @@ export default function TermsPage() {
           <p>There are no customer accounts. You are responsible for the accuracy of the contact and address details you give. Do not misuse the website, attempt to access other customers&apos; orders, or interfere with its operation.</p>
 
           <h2>9. Intellectual property</h2>
-          <p>The Keshsudha name, logo, packaging, photography, text and guide are our property or used under licence. You may not use them without written permission.</p>
+          <p>The Keshvardhan name, logo, packaging, photography, text and guide are our property or used under licence. You may not use them without written permission.</p>
 
           <h2>10. Liability</h2>
           <p>To the extent permitted by law, our total liability for any claim relating to an order is limited to the amount you paid for that order. Nothing in these terms limits liability that cannot be limited under Indian law, including under the Consumer Protection Act, 2019.</p>

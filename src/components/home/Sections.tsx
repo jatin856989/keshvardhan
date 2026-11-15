@@ -203,7 +203,7 @@ export function GuideCta() {
             </Reveal>
             <Reveal delay={0.15} className="mx-auto w-full max-w-sm">
               <div className="animate-float rounded-2xl bg-forest p-8 shadow-lift">
-                <p className="text-xs font-bold uppercase tracking-[0.3em] text-cream/60">Keshsudha</p>
+                <p className="text-xs font-bold uppercase tracking-[0.3em] text-cream/60">Keshvardhan</p>
                 <p className="font-display mt-6 text-4xl leading-tight text-cream">
                   The 30-Day
                   <br />
@@ -248,7 +248,7 @@ export function FounderNote() {
                 bottle.
               </p>
               <p>
-                Keshsudha takes those two habits and makes them repeatable: a measured spoon of the same nine
+                Keshvardhan takes those two habits and makes them repeatable: a measured spoon of the same nine
                 plants every day, an oil made from the same plants twice a week, and a label that tells you
                 exactly how much of each is inside.
               </p>
