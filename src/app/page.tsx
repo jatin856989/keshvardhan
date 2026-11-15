@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${siteConfig.name} | Nectar for your hair, inside and out`,
     description:
-      "An edible herbal powder and a scalp oil made from the same nine Indian botanicals. One routine, one ingredient list, one month to notice the difference.",
+      "An edible herbal powder and a scalp oil made from a shared set of Indian botanicals. One routine, one ingredient list, one month to notice the difference.",
     url: "/",
     images: [defaultOgImage],
   },

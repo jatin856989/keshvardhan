@@ -61,7 +61,7 @@ export const products: Product[] = [
     description:
       "The complete inside-out hair routine: a 30-serving jar of Daily Root Powder and a 100 ml bottle of Root Ritual Oil, with the 30-day guide included.",
     longDescription: [
-      "Hair is built from the inside and protected from the outside. The Routine pairs a spoon of food-grade botanicals a day with a twice-weekly scalp oil made from the same plants, so both sides of the story are covered for a full month.",
+      "Hair is built from the inside and protected from the outside. The Routine pairs a spoon of food-grade botanicals a day with a twice-weekly scalp oil infused with five of the same plants, so both sides of the story are covered for a full month.",
       "Every bundle ships with a printed quick-start card and instant access to the Keshvardhan Guide, a 40-page eBook that walks you through the first 30 days, recipes for the powder and the oiling technique step by step.",
     ],
     pricePaise: 139_900,
@@ -138,13 +138,13 @@ export const products: Product[] = [
     name: "Daily Root Powder",
     shortName: "Root Powder",
     kind: "powder",
-    tagline: "A spoon of nine Indian botanicals a day, for hair built from within.",
+    tagline: "A spoon of eight Indian plants and seeds a day, for hair built from within.",
     description:
       "Food-grade herbal hair nourishment powder with amla, bhringraj, curry leaf, moringa, hibiscus, fenugreek, black sesame and pumpkin seed. 150 g, 30 servings, no added sugar or synthetic vitamins.",
     metaDescription:
       "Food-grade herbal powder with amla, bhringraj, curry leaf and moringa. 150 g, 30 servings, no added sugar or synthetic vitamins. Ships across India.",
     longDescription: [
-      "Daily Root Powder is a food, not a pill. Each 5 g serving blends nine botanicals that Indian households have used for hair for generations, ground fresh and nitrogen-flushed so they stay potent for a year.",
+      "Daily Root Powder is a food, not a pill. Each 5 g serving blends eight plants and seeds long used in Indian homes for hair care, ground fresh and nitrogen-flushed so they stay potent for a year.",
       "It tastes mildly tangy and nutty from the amla and black sesame, and mixes into warm water, milk, curd or a smoothie. The 30-day guide includes six recipes if you prefer it in food.",
       "We publish the exact quantity of every ingredient per serving. No proprietary blends, no isolated vitamins, no added sugar.",
     ],
@@ -178,7 +178,7 @@ export const products: Product[] = [
     ],
     color: "#7FA650",
     highlights: [
-      "Nine botanicals, every quantity on the label",
+      "Eight botanicals, every quantity on the label",
       "No added sugar, no synthetic vitamins, no fillers",
       "Mixes into water, milk, curd or a smoothie",
       "Lab-tested per batch for heavy metals and microbes",
@@ -194,7 +194,7 @@ export const products: Product[] = [
       { name: "Moringa leaf", botanical: "Moringa oleifera", amount: "600 mg", role: "Iron, protein, micronutrients" },
       { name: "Bhringraj", botanical: "Eclipta alba", amount: "600 mg", role: "Classic Ayurvedic hair herb" },
       { name: "Curry leaf", botanical: "Murraya koenigii", amount: "500 mg", role: "Antioxidants, scalp conditioning" },
-      { name: "Fenugreek", botanical: "Trigonella foenum-graecum", amount: "500 mg", role: "Protein, traditional anti-fall use" },
+      { name: "Fenugreek", botanical: "Trigonella foenum-graecum", amount: "500 mg", role: "Protein, traditionally used in Indian hair care" },
       { name: "Pumpkin seed", botanical: "Cucurbita pepo", amount: "500 mg", role: "Zinc, plant protein" },
       { name: "Hibiscus flower", botanical: "Hibiscus rosa-sinensis", amount: "400 mg", role: "Conditioning, traditional use" },
     ],
@@ -217,7 +217,7 @@ export const products: Product[] = [
       {
         question: "When will I see a difference?",
         answer:
-          "Hair grows in a slow cycle. Give the routine a full 30 days and use the tracker in the guide to notice changes in shedding and texture.",
+          "Hair grows in a slow cycle. Give the routine a full 30 days and use the tracker in the guide to record what you notice. Results vary from person to person.",
       },
     ],
     badge: "Food-grade",
@@ -228,13 +228,13 @@ export const products: Product[] = [
     name: "Root Ritual Oil",
     shortName: "Ritual Oil",
     kind: "oil",
-    tagline: "Cold-pressed coconut and sesame, slow-infused with the same plants you eat.",
+    tagline: "Cold-pressed coconut and sesame, slow-infused with five of the plants in the powder.",
     description:
       "Herbal scalp oil in cold-pressed coconut and black sesame, slow-infused with bhringraj, amla, curry leaf, hibiscus and fenugreek, finished with castor and rosemary. 100 ml amber glass, no synthetic fragrance.",
     metaDescription:
       "Herbal scalp oil in cold-pressed coconut and sesame, slow-infused with bhringraj, amla and curry leaf. 100 ml amber glass, no synthetic fragrance.",
     longDescription: [
-      "Root Ritual Oil is the outside half of the routine. We slow-infuse the same botanicals from the Daily Root Powder into a base of cold-pressed coconut and black sesame oil, then add castor for body and a drop of rosemary for the scalp.",
+      "Root Ritual Oil is the outside half of the routine. We slow-infuse five of the botanicals from the Daily Root Powder (amla, bhringraj, curry leaf, hibiscus and fenugreek) into a base of cold-pressed coconut and black sesame oil, then add castor for body and a drop of rosemary for the scalp.",
       "It is light enough to wash out with one shampoo and scented only by the herbs themselves. The amber glass bottle protects the oil from light; a pump keeps it clean.",
     ],
     pricePaise: 69_900,
@@ -285,7 +285,7 @@ export const products: Product[] = [
       { name: "Amla (infused)", botanical: "Emblica officinalis", amount: "5 g", role: "Traditional hair tonic" },
       { name: "Curry leaf (infused)", botanical: "Murraya koenigii", amount: "3 g", role: "Scalp conditioning" },
       { name: "Hibiscus (infused)", botanical: "Hibiscus rosa-sinensis", amount: "3 g", role: "Conditioning" },
-      { name: "Fenugreek (infused)", botanical: "Trigonella foenum-graecum", amount: "2 g", role: "Traditional anti-fall use" },
+      { name: "Fenugreek (infused)", botanical: "Trigonella foenum-graecum", amount: "2 g", role: "Traditionally used in Indian hair care" },
       { name: "Rosemary essential oil", botanical: "Rosmarinus officinalis", amount: "0.5 ml", role: "Scent and scalp stimulation" },
     ],
     faqs: [

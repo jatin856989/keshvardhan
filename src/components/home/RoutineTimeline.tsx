@@ -4,9 +4,9 @@ import { motion, useReducedMotion } from "motion/react";
 
 const weeks = [
   { week: "Week 1", title: "Build the habit", body: "Fix a moment for the powder, do the first oiling on day 2, take your day-1 photo." },
-  { week: "Week 2", title: "Calmer scalp", body: "Less itch and flaking is usually the first thing people notice." },
-  { week: "Week 3", title: "Fewer strands in the brush", body: "Shedding settles. The tracker makes it visible." },
-  { week: "Week 4", title: "Softer texture, new baby hairs", body: "Fine new growth at the hairline and hair that feels different to the touch." },
+  { week: "Week 2", title: "Check in on your scalp", body: "Rate how it feels from 1 to 5 each Sunday and write one line about it." },
+  { week: "Week 3", title: "Count the brush", body: "After 20 strokes, count the strands. Same brush, same time, every Sunday." },
+  { week: "Week 4", title: "Compare day 1 and day 28", body: "Put your day-1 photo next to today's and look at your parting and texture." },
 ];
 
 export function RoutineTimeline() {

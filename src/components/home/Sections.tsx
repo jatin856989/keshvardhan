@@ -15,7 +15,7 @@ import { productInStock } from "@/lib/stock";
 
 export function TrustStrip() {
   const items = [
-    "Nine Indian botanicals",
+    "Eight Indian plants and seeds",
     "No added sugar",
     "No synthetic fragrance",
     "Every quantity on the label",
@@ -44,7 +44,7 @@ export function RoutineSteps() {
     {
       icon: Utensils,
       title: "Eat it",
-      body: "One level teaspoon of Daily Root Powder every morning, in warm water, milk, curd or a smoothie. Nine botanicals, 5 grams, no pills.",
+      body: "One level teaspoon of Daily Root Powder every morning, in warm water, milk, curd or a smoothie. Eight botanicals, 5 grams, no pills.",
       color: "bg-amla-100 text-amla",
     },
     {
@@ -132,8 +132,8 @@ export function IngredientsSection() {
               </h2>
               <p className="mt-6 max-w-lg leading-relaxed text-cream/80">
                 Amla, bhringraj, curry leaf, moringa, hibiscus, fenugreek, black sesame and pumpkin seed. The
-                same plants go into the jar you eat and the oil you massage in, and every milligram is printed
-                on the label.
+                plants and seeds go into the jar you eat, five of them are infused into the oil you massage in, and
+                every milligram is printed on the label.
               </p>
               <Link href="/ingredients" className="btn btn-light mt-8">
                 Read the full ingredient list
@@ -164,13 +164,13 @@ export function HowItWorks() {
     <section className="py-20 lg:py-28" aria-labelledby="how-title">
       <Container>
         <Reveal className="max-w-2xl">
-          <p className="eyebrow">What to expect</p>
+          <p className="eyebrow">How to use it</p>
           <h2 id="how-title" className="font-display mt-3 text-balance text-4xl text-forest sm:text-5xl">
             Thirty days, week by week.
           </h2>
           <p className="mt-4 leading-relaxed text-stone">
-            Hair grows on a slow cycle, so the first changes show up in the scalp and in shedding, not in
-            length. Here is the honest timeline we ask you to give it.
+            Hair grows on a slow cycle, so we ask you to give the routine a full 30 days and track what you
+            notice. Results vary from person to person.
           </p>
         </Reveal>
         <RoutineTimeline />
@@ -249,8 +249,8 @@ export function FounderNote() {
                 bottle.
               </p>
               <p>
-                Keshvardhan takes those two habits and makes them repeatable: a measured spoon of the same nine
-                plants every day, an oil made from the same plants twice a week, and a label that tells you
+                Keshvardhan takes those two habits and makes them repeatable: a measured spoon of eight
+                plants and seeds every day, an oil infused with five of them twice a week, and a label that tells you
                 exactly how much of each is inside.
               </p>
             </div>
@@ -323,7 +323,7 @@ export function NewsletterCta() {
         <Reveal className="card mx-auto max-w-3xl px-6 py-12 text-center sm:px-12">
           <p className="eyebrow">Stay close</p>
           <h2 id="newsletter-title" className="font-display mt-3 text-balance text-3xl text-forest sm:text-4xl">
-            Get the guide, launch offers and nothing else.
+            Launch offers and nothing else.
           </h2>
           <p className="mx-auto mt-3 max-w-md text-stone">
             One or two emails a month. We never share your address.

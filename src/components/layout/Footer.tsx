@@ -18,7 +18,7 @@ export function Footer() {
               households have trusted for generations.
             </p>
             <div className="mt-6">
-              <p className="text-sm font-semibold">Get the 30-day guide and launch offers</p>
+              <p className="text-sm font-semibold">Get launch offers and updates</p>
               <WaitlistForm source="footer" compact />
             </div>
           </div>

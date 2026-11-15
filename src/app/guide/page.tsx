@@ -61,7 +61,7 @@ export default function GuidePage() {
           </Reveal>
           <Reveal delay={0.1} className="card p-8">
             <h2 className="font-display text-2xl text-forest">Not ready to order?</h2>
-            <p className="mt-2 text-sm text-stone">Join the list and we will send the first chapter plus launch offers. One or two emails a month.</p>
+            <p className="mt-2 text-sm text-stone">Join the list for launch offers and updates, one or two emails a month. The guide itself comes free with every order.</p>
             <WaitlistForm source="guide" compact />
           </Reveal>
         </div>

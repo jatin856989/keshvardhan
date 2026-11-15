@@ -39,10 +39,10 @@ export default function AboutPage() {
           </p>
           <h2>What we did about it</h2>
           <p>
-            We took nine plants that show up in every regional hair tradition in India, amla, bhringraj, curry
-            leaf, moringa, hibiscus, fenugreek, black sesame, pumpkin seed and coconut, and used them two ways. Ground
-            and nitrogen-flushed in a jar you eat a teaspoon of each morning. Slow-infused into a cold-pressed oil you
-            massage in twice a week.
+            We took eight plants and seeds long used in Indian homes for hair care, amla, bhringraj, curry leaf,
+            moringa, hibiscus, fenugreek, black sesame and pumpkin seed, and used them two ways. Ground and
+            nitrogen-flushed in a jar you eat a teaspoon of each morning. And five of them (amla, bhringraj, curry leaf,
+            hibiscus and fenugreek) slow-infused into a cold-pressed coconut and sesame oil you massage in twice a week.
           </p>
           <p>
             Then we did the boring part properly. Every ingredient is listed with its quantity. Every batch goes to

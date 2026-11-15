@@ -23,7 +23,7 @@ export function Hero() {
           </Reveal>
           <Reveal delay={0.16}>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-stone">
-              A spoon of nine Indian botanicals every morning, and a slow-infused oil for your scalp twice a
+              A spoon of eight Indian plants and seeds every morning, and a slow-infused oil for your scalp twice a
               week. One honest routine, one ingredient list, one month to notice the difference.
             </p>
           </Reveal>

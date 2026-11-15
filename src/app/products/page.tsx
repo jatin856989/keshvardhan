@@ -56,7 +56,7 @@ export default async function ProductsPage() {
         </p>
         <p>
           <strong>Choose Root Ritual Oil alone</strong> if you already have a nutrition routine and want a scalp oil. It is
-          cold-pressed coconut and sesame, slow-infused with the same botanicals, finished with castor and rosemary, and
+          cold-pressed coconut and sesame, slow-infused with five of the powder&apos;s plants, finished with castor and rosemary, and
           washes out with one shampoo. Not sure? Read the <Link href="/ingredients">full ingredient list</Link>, the{" "}
           <Link href="/faq">FAQ</Link> or the <Link href="/guide">30-day guide</Link>.
         </p>

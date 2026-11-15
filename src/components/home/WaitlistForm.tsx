@@ -58,7 +58,7 @@ export function WaitlistForm({ source = "home", compact = false }: { source?: st
       />
       <input type="text" name="website" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
       <button type="submit" className={`btn ${compact ? "btn-light" : "btn-accent"} shrink-0`} disabled={status === "loading"}>
-        {status === "loading" ? "…" : compact ? <ArrowRight className="size-4" aria-label="Join" /> : "Get the guide"}
+        {status === "loading" ? "…" : compact ? <ArrowRight className="size-4" aria-label="Join" /> : "Join the list"}
       </button>
       {status === "error" ? (
         <p className="sr-only" role="alert">

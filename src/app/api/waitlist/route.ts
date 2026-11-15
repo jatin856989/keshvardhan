@@ -17,7 +17,7 @@ export async function POST(req: Request) {
         .values({ email: parsed.data.email, name: parsed.data.name || null, source: parsed.data.source ?? null })
         .onConflictDoNothing();
     }
-    return json({ ok: true, message: "You're on the list. The guide is on its way." });
+    return json({ ok: true, message: "You're on the list. We'll email you launch updates and offers." });
   } catch (err) {
     return handleError(err);
   }

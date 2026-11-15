@@ -80,9 +80,9 @@ export const guideChapters: Chapter[] = [
     ],
   },
   {
-    title: "Weeks 2 to 4: what to notice",
+    title: "Weeks 2 to 4: what to track",
     paragraphs: [
-      "Hair grows in a slow cycle, so the first changes are usually in the scalp and in shedding, not in length. By week two many people notice less itch and flaking. By week three, fewer strands in the brush. By week four, new baby hairs at the hairline and a softer texture.",
+      "Hair grows in a slow cycle, so give the routine a full 30 days and track what you notice rather than judging it day to day. In week two, rate how your scalp feels from 1 to 5. In week three, count the strands in your brush after 20 strokes. In week four, compare your day-1 photo of the parting with today's. Results vary from person to person.",
       "Use the tracker on the last page every Sunday. A photo of the parting and a count of strands in the brush tells you more than a mirror does.",
     ],
   },
