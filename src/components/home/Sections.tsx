@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, BookOpen, Droplets, RefreshCw, Utensils } from "lucide-react";
+import { ArrowRight, BookOpen, Droplets, Headset, PackageCheck, RefreshCw, Search, ShieldCheck, Truck, Utensils, Wallet } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { Marquee } from "@/components/ui/Marquee";
 import { Reveal, Stagger, StaggerItem } from "@/components/ui/Reveal";
@@ -330,6 +330,77 @@ export function NewsletterCta() {
           </p>
           <WaitlistForm source="home" />
         </Reveal>
+      </Container>
+    </section>
+  );
+}
+
+export function ScalpCheckCta() {
+  return (
+    <section className="py-20 lg:py-28" aria-labelledby="scalp-cta-title">
+      <Container>
+        <div className="relative overflow-hidden rounded-[2rem] bg-forest text-cream">
+          <div className="grain absolute inset-0" aria-hidden="true" />
+          <div className="relative grid gap-10 p-8 sm:p-12 lg:grid-cols-[1.3fr_1fr] lg:items-center lg:p-16">
+            <Reveal>
+              <p className="eyebrow !text-gold">Free, two minutes</p>
+              <h2 id="scalp-cta-title" className="font-display mt-3 text-balance text-4xl sm:text-5xl">
+                Is your scalp dry, oily or sensitive?
+              </h2>
+              <p className="mt-5 max-w-xl leading-relaxed text-cream/85">
+                Answer nine questions about how your scalp feels and how you care for it. Get a plain-language read, habit tips
+                and, if it fits, a routine to try. It runs in your browser and it is a habit check, not a diagnosis.
+              </p>
+              <Link href="/scalp-test" className="btn btn-light mt-8">
+                <Search className="size-4" aria-hidden="true" />
+                Take the scalp check
+              </Link>
+            </Reveal>
+            <Reveal delay={0.15}>
+              <ul className="space-y-3">
+                {[
+                  ["Dry, oily, combination or sensitive", "Know which way your scalp leans"],
+                  ["Habit tips", "Washing, oiling, heat and tight styles"],
+                  ["Knows its limits", "Worrying answers point you to a dermatologist first"],
+                ].map(([t, d]) => (
+                  <li key={t} className="rounded-2xl border border-cream/15 bg-cream/5 p-5">
+                    <p className="font-display text-xl">{t}</p>
+                    <p className="mt-1 text-sm text-cream/70">{d}</p>
+                  </li>
+                ))}
+              </ul>
+            </Reveal>
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+}
+
+export function ShopWithConfidence() {
+  const items = [
+    { icon: Truck, title: "Free shipping above ₹999", text: "Delivered across India in 2 to 5 working days." },
+    { icon: Wallet, title: "Cash on delivery", text: "Pay when it arrives, or online with UPI and cards." },
+    { icon: PackageCheck, title: "7-day returns", text: "On sealed products, with a plain returns policy." },
+    { icon: ShieldCheck, title: "Every quantity on the label", text: "No proprietary blends, no added sugar." },
+    { icon: Headset, title: "A person replies", text: "Within one working day, Monday to Saturday." },
+  ];
+  return (
+    <section className="border-y border-line bg-white py-12" aria-label="Why shop with us">
+      <Container>
+        <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
+          {items.map(({ icon: Icon, title, text }) => (
+            <li key={title} className="flex items-start gap-3">
+              <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-amla-100 text-forest">
+                <Icon className="size-5" aria-hidden="true" />
+              </span>
+              <div>
+                <p className="text-sm font-bold text-forest">{title}</p>
+                <p className="mt-0.5 text-sm leading-snug text-stone">{text}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
       </Container>
     </section>
   );

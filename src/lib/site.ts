@@ -67,10 +67,12 @@ export function absoluteUrl(path = "/"): string {
 
 export const navLinks = [
   { href: "/products", label: "Shop" },
+  { href: "/scalp-test", label: "Scalp Check" },
   { href: "/ingredients", label: "Ingredients" },
   { href: "/guide", label: "The Guide" },
   { href: "/about", label: "Our Story" },
   { href: "/faq", label: "FAQ" },
+  { href: "/contact", label: "Contact" },
 ] as const;
 
 export const footerLinks = {
@@ -79,6 +81,7 @@ export const footerLinks = {
     { href: "/products/daily-root-powder", label: "Daily Root Powder" },
     { href: "/products/root-ritual-oil", label: "Root Ritual Oil" },
     { href: "/guide", label: "Free 30-day Guide" },
+    { href: "/scalp-test", label: "Free Scalp Check" },
   ],
   company: [
     { href: "/about", label: "Our Story" },

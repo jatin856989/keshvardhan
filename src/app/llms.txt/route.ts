@@ -24,6 +24,7 @@ export function GET() {
     "## Key pages",
     `- [Ingredients and quantities](${absoluteUrl("/ingredients")}): every botanical in both products with the exact amount per serving or per 100 ml.`,
     `- [The 30-day guide](${absoluteUrl("/guide")}): the free eBook included with every order.`,
+    `- [Scalp check](${absoluteUrl("/scalp-test")}): a free nine-question habit and comfort self-check for the scalp. It is not a medical test.`,
     `- [FAQ](${absoluteUrl("/faq")}): dosage, taste, results, shipping, cash on delivery and returns.`,
     `- [Shipping and returns](${absoluteUrl("/shipping-returns")}): free shipping above ₹999, cash on delivery for ₹49, 7-day returns.`,
     `- [Our story](${absoluteUrl("/about")}): why the routine works on both the scalp and the diet.`,

@@ -9,8 +9,11 @@ import {
   IngredientsSection,
   NewsletterCta,
   RoutineSteps,
+  ScalpCheckCta,
+  ShopWithConfidence,
   TrustStrip,
 } from "@/components/home/Sections";
+import { Testimonials } from "@/components/home/Testimonials";
 import { getCachedStock } from "@/lib/stock";
 import { defaultOgImage, siteConfig } from "@/lib/site";
 
@@ -36,8 +39,11 @@ export default async function HomePage() {
       <TrustStrip />
       <RoutineSteps />
       <FeaturedProducts stock={stock} />
+      <ShopWithConfidence />
+      <ScalpCheckCta />
       <IngredientsSection />
       <HowItWorks />
+      <Testimonials />
       <GuideCta />
       <FounderNote />
       <FaqSection />

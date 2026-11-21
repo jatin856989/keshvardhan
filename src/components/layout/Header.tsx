@@ -32,14 +32,14 @@ export function Header() {
     >
       <div className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Logo />
-        <nav aria-label="Primary" className="hidden md:block">
+        <nav aria-label="Primary" className="hidden lg:block">
           {/* usePathname is URL data; keeping it inside Suspense lets every route prerender. */}
           <Suspense fallback={<NavList activePath={null} />}>
             <ActiveNavList />
           </Suspense>
         </nav>
         <div className="flex items-center gap-2">
-          <Link href="/products/routine-bundle" className="btn btn-primary hidden !px-5 !py-2.5 text-sm lg:inline-flex">
+          <Link href="/products/routine-bundle" className="btn btn-primary hidden !px-5 !py-2.5 text-sm xl:inline-flex">
             Start the routine
           </Link>
           <button
@@ -57,7 +57,7 @@ export function Header() {
           </button>
           <button
             type="button"
-            className="grid size-11 place-items-center rounded-full text-forest transition hover:bg-cream-200 md:hidden"
+            className="grid size-11 place-items-center rounded-full text-forest transition hover:bg-cream-200 lg:hidden"
             aria-expanded={menuOpen}
             aria-controls="mobile-menu"
             aria-label={menuOpen ? "Close menu" : "Open menu"}
@@ -76,7 +76,7 @@ export function Header() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.2 }}
-            className="border-t border-line bg-cream px-4 pb-6 pt-3 md:hidden"
+            className="border-t border-line bg-cream px-4 pb-6 pt-3 lg:hidden"
           >
             <ul className="flex flex-col">
               {navLinks.map((l) => (
@@ -110,7 +110,7 @@ function ActiveNavList() {
 
 function NavList({ activePath }: { activePath: string | null }) {
   return (
-    <ul className="flex items-center gap-7">
+    <ul className="flex items-center gap-6 xl:gap-7">
       {navLinks.map((l) => {
         const active = activePath !== null && (activePath === l.href || activePath.startsWith(`${l.href}/`));
         return (
